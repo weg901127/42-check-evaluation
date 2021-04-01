@@ -1,0 +1,22 @@
+{
+  "name": "42check evaluation",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "I wanna save you from deep anger, Just click 'green check icon'",
+  "author": "gilee",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon":{
+      "16": "icon_check.png",
+      "32": "icon_check.png",
+      "48": "icon_check.png",
+      "128": "icon_check.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
